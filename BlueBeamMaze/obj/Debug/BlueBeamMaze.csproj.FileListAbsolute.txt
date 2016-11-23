@@ -13,3 +13,11 @@ C:\Users\kevinl\Documents\_projects\BlueBeamMaze\BlueBeamMaze\bin\Debug\BlueBeam
 C:\Users\kevinl\Documents\_projects\BlueBeamMaze\BlueBeamMaze\bin\Debug\BlueBeamMaze.pdb
 C:\Users\kevinl\Documents\_projects\BlueBeamMaze\BlueBeamMaze\obj\Debug\BlueBeamMaze.csprojResolveAssemblyReference.cache
 C:\Users\kevinl\Documents\_projects\BlueBeamMaze\BlueBeamMaze\bin\Debug\maze3.png
+C:\Users\joon\Documents\_projects\maze\BlueBeamMaze\bin\Debug\BlueBeamMaze.exe.config
+C:\Users\joon\Documents\_projects\maze\BlueBeamMaze\obj\Debug\BlueBeamMaze.exe
+C:\Users\joon\Documents\_projects\maze\BlueBeamMaze\obj\Debug\BlueBeamMaze.pdb
+C:\Users\joon\Documents\_projects\maze\BlueBeamMaze\bin\Debug\maze1.png
+C:\Users\joon\Documents\_projects\maze\BlueBeamMaze\bin\Debug\maze3.png
+C:\Users\joon\Documents\_projects\maze\BlueBeamMaze\bin\Debug\BlueBeamMaze.exe
+C:\Users\joon\Documents\_projects\maze\BlueBeamMaze\bin\Debug\BlueBeamMaze.pdb
+C:\Users\joon\Documents\_projects\maze\BlueBeamMaze\obj\Debug\BlueBeamMaze.csprojResolveAssemblyReference.cache
