@@ -1,0 +1,7 @@
+C:\Users\kevinl\AppData\Local\Temporary Projects\BlueBeamMaze\bin\Debug\BlueBeamMaze.exe.config
+C:\Users\kevinl\AppData\Local\Temporary Projects\BlueBeamMaze\bin\Debug\maze1.png
+C:\Users\kevinl\AppData\Local\Temporary Projects\BlueBeamMaze\bin\Debug\BlueBeamMaze.exe
+C:\Users\kevinl\AppData\Local\Temporary Projects\BlueBeamMaze\bin\Debug\BlueBeamMaze.pdb
+C:\Users\kevinl\AppData\Local\Temporary Projects\BlueBeamMaze\obj\Debug\BlueBeamMaze.csprojResolveAssemblyReference.cache
+C:\Users\kevinl\AppData\Local\Temporary Projects\BlueBeamMaze\obj\Debug\BlueBeamMaze.exe
+C:\Users\kevinl\AppData\Local\Temporary Projects\BlueBeamMaze\obj\Debug\BlueBeamMaze.pdb
