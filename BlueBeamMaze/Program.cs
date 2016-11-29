@@ -17,21 +17,14 @@ namespace BlueBeamMaze
 
             int height = bitMap.Height;
             int width = bitMap.Width;
-
             int[] startCoordinates = findStartPoint(height, width, bitMap);
             int[] endCoordinates = findEndPoint(height, width, bitMap);
+            int startX = startCoordinates[0];
+            int startY = startCoordinates[1];
 
-            int x = startCoordinates[0];
-            int y = startCoordinates[1];
+            exploreMaze(startX, startY);
 
-            exploreMaze(x, y);
-
-
-            
-
-
-        
-            bitMap.Save(@"C:\Users\joon\Documents\_projects\maze\output\maze1.png");
+            bitMap.Save(@"C:\Users\kevinl\Documents\_projects\BlueBeamMaze\BlueBeamMaze\bin\Debug\output\output.png");
 
         }
 
@@ -40,24 +33,32 @@ namespace BlueBeamMaze
         public static void exploreMaze(int x, int y)
         {
 
-            Console.WriteLine("x: " + x + " y: " + y);
-            bitMap.SetPixel(x, y, Color.Green);
+            //Console.WriteLine("x: " + x + " y: " + y);
+            
+            markPath(x, y);
 
-            if (bitMap.GetPixel(x + 1, y).ToArgb() != Color.Black.ToArgb())
+            if (bitMap.GetPixel(x + 1, y).ToArgb() != Color.Black.ToArgb() && bitMap.GetPixel(x + 1, y).ToArgb() != Color.MediumTurquoise.ToArgb())
                 exploreMaze(x + 1, y);
 
-            //if (bitMap.GetPixel(x - 1, y).ToArgb() != Color.Black.ToArgb())
-            //    exploreMaze(x - 1, y);
+            if (bitMap.GetPixel(x - 1, y).ToArgb() != Color.Black.ToArgb() && bitMap.GetPixel(x - 1, y).ToArgb() != Color.MediumTurquoise.ToArgb())
+                exploreMaze(x - 1, y);
 
-            //if (bitMap.GetPixel(x, y + 1).ToArgb() != Color.Black.ToArgb())
-            //    exploreMaze(x, y + 1);
+            if (bitMap.GetPixel(x, y + 1).ToArgb() != Color.Black.ToArgb() && bitMap.GetPixel(x, y + 1).ToArgb() != Color.MediumTurquoise.ToArgb())
+                exploreMaze(x, y + 1);
 
-            //if (bitMap.GetPixel(x, y - 1).ToArgb() != Color.Black.ToArgb())
-            //    exploreMaze(x, y - 1);
+            if (bitMap.GetPixel(x, y - 1).ToArgb() != Color.Black.ToArgb() && bitMap.GetPixel(x, y - 1).ToArgb() != Color.MediumTurquoise.ToArgb())
+                exploreMaze(x, y - 1);
+                      
+            
             //while (true) { }
+
         }
 
-        
+        public static void markPath(int x, int y)
+        {
+                bitMap.SetPixel(x, y, Color.MediumTurquoise);
+        }
+
         public static int[] findStartPoint(int height, int width, Bitmap bitMap)
         {
             // Find a red pixel that indicates the start of the maze 
